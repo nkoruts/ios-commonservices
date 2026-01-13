@@ -1,8 +1,9 @@
+
 import XCTest
 import DiiaCommonTypes
 @testable import DiiaCommonServices
 
-class GeneralErrorsHandlerTests: XCTestCase {
+final class GeneralErrorsHandlerTests: XCTestCase {
     
     var view: AnyGeneralErrorMockView!
     

@@ -1,9 +1,10 @@
+
 import UIKit
 import DiiaCommonTypes
 import DiiaUIComponents
 @testable import DiiaCommonServices
 
-class ContactsInputMockView: UIViewController, ContactsInputView {
+final class ContactsInputMockView: UIViewController, ContactsInputView {
     private(set) var isTitleConfigured: Bool = false
     private(set) var isStepCounterConfigured: Bool = false
     private(set) var isButtonAvailabilityConfigured: Bool = false

@@ -1,3 +1,4 @@
+
 import UIKit
 import DiiaMVPModule
 import DiiaCommonTypes
@@ -9,7 +10,7 @@ enum TemplateHandlerState {
     case showingGlobal
 }
 
-public class TemplateHandler {
+public final class TemplateHandler {
     
     // MARK: - Properties
     private static var router: RoutingHandlerProtocol?

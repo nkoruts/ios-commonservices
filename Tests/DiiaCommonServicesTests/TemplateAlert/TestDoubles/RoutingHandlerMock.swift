@@ -1,8 +1,9 @@
+
 import UIKit
 import DiiaMVPModule
 @testable import DiiaCommonServices
 
-class RoutingHandlerMock: RoutingHandlerProtocol {
+final class RoutingHandlerMock: RoutingHandlerProtocol {
     
     private(set) var isPerformOrDeferCalled: Bool = false
 

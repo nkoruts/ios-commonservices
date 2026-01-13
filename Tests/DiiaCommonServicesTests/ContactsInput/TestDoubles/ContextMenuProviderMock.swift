@@ -1,8 +1,9 @@
+
 import Foundation
 import DiiaMVPModule
 import DiiaCommonTypes
 
-class ContextMenuProviderMock: ContextMenuProviderProtocol {
+final class ContextMenuProviderMock: ContextMenuProviderProtocol {
     var hasContextMenuReturnValue: Bool = true
     var viewPassedInOpenContextMenu: BaseView?
     var itemsPassedInSetContextMenu: [ContextMenuItem]?

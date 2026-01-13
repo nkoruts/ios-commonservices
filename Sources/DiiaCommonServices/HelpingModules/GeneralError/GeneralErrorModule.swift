@@ -1,8 +1,9 @@
+
 import UIKit
 import DiiaMVPModule
 import DiiaUIComponents
 
-public class GeneralErrorModule: BaseModule {
+public final class GeneralErrorModule: BaseModule {
     private let view: GeneralErrorViewController
     private let presenter: GeneralErrorPresenter
     

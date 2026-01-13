@@ -1,8 +1,9 @@
+
 import UIKit
 import DiiaMVPModule
 @testable import DiiaCommonServices
 
-class AnyGeneralErrorMockView: UIViewController, BaseView {
+final class AnyGeneralErrorMockView: UIViewController, BaseView {
     var onGeneralErrorShow: ((Bool) -> Void)?
     
     func showChild(module: BaseModule) {

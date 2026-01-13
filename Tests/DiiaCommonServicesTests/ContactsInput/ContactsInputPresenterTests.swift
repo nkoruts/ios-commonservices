@@ -1,7 +1,8 @@
+
 import XCTest
 @testable import DiiaCommonServices
 
-class ContactsInputPresenterTests: XCTestCase {
+final class ContactsInputPresenterTests: XCTestCase {
     
     var view: ContactsInputMockView!
     var contextMenuProvider: ContextMenuProviderMock!

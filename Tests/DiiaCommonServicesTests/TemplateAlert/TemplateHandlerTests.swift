@@ -1,8 +1,9 @@
+
 import XCTest
 import DiiaCommonTypes
 @testable import DiiaCommonServices
 
-class TemplateHandlerTests: XCTestCase {
+final class TemplateHandlerTests: XCTestCase {
     
     var routingHandler: RoutingHandlerMock!
     var deepLinkManager: DeepLinkManagerMock!

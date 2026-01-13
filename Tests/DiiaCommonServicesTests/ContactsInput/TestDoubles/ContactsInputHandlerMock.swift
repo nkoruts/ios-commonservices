@@ -1,7 +1,8 @@
+
 import Foundation
 @testable import DiiaCommonServices
 
-class ContactsInputHandlerMock: ContactsInputHandler {
+final class ContactsInputHandlerMock: ContactsInputHandler {
     private(set) var isContactsInputInfoFetched: Bool = false
     private(set) var isSendContactsCalled: Bool = false
     

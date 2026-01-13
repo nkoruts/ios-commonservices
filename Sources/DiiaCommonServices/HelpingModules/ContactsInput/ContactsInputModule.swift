@@ -1,9 +1,10 @@
+
 import UIKit
 import DiiaMVPModule
 import DiiaUIComponents
 import DiiaCommonTypes
 
-public class ContactsInputModule: BaseModule {
+public final class ContactsInputModule: BaseModule {
     private let view: ContactsInputViewController
     private let presenter: ContactsInputPresenter
 

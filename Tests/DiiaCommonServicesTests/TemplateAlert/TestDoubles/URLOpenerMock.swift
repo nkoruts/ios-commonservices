@@ -1,8 +1,9 @@
+
 import Foundation
 import DiiaCommonTypes
 @testable import DiiaCommonServices
 
-class URLOpenerMock: URLOpenerProtocol {
+final class URLOpenerMock: URLOpenerProtocol {
     private(set) var isOpenUrlCalled: Bool = false
     
     func url(urlString: String?, linkType: String?) -> Bool {

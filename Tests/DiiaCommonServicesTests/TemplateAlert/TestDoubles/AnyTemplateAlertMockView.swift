@@ -1,3 +1,4 @@
+
 import UIKit
 import DiiaMVPModule
 import DiiaUIComponents
@@ -7,7 +8,7 @@ protocol AnyTemplateAlertView {
     var presenter: TemplateAlertAction! { get set }
 }
 
-class AnyTemplateAlertMockView: UIViewController, BaseView {
+final class AnyTemplateAlertMockView: UIViewController, BaseView {
     var onTemplateShow: ((Bool) -> Void)?
     
     func showChild(module: BaseModule) {

@@ -2,7 +2,7 @@
 import Foundation
 import DiiaCommonTypes
 
-public class AddressRequestStep {
+public final class AddressRequestStep {
     public let parameters: [AddressRequestParameter]
     
     public init(parameters: [AddressRequestParameter]) {
@@ -33,7 +33,7 @@ public class AddressRequestStep {
     }
 }
 
-public class AddressRequestParameter {
+public final class AddressRequestParameter {
     public let parameter: AddressParameter
     public var id: String?
     public var value: String?

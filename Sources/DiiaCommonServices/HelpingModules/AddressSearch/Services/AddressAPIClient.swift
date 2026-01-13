@@ -14,7 +14,7 @@ protocol AddressAPIClientProtocol {
     -> Signal<AddressResponse, NetworkError>
 }
 
-class AddressAPIClient: ApiClient<AddressAPI>, AddressAPIClientProtocol {
+final class AddressAPIClient: ApiClient<AddressAPI>, AddressAPIClientProtocol {
     
     init(context: NetworkingContext) {
         super.init()

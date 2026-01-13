@@ -1,8 +1,9 @@
+
 import XCTest
 import DiiaCommonTypes
 @testable import DiiaCommonServices
 
-class TemplateAlertPresenterTests: XCTestCase {
+final class TemplateAlertPresenterTests: XCTestCase {
     
     var view: TemplateAlertMockView!
     

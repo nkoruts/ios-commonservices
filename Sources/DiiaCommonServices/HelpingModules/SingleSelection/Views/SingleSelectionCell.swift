@@ -24,7 +24,7 @@ final class SingleSelectionCell: BaseTableNibCell {
 
     private let additionalLabel = UILabel().withParameters(
         font: FontBook.usualFont,
-        textColor: .statusGray,
+        textColor: .black540,
         lineBreakMode: .byTruncatingTail
     )
 

@@ -1,7 +1,8 @@
+
 import UIKit
 @testable import DiiaCommonServices
 
-class TemplateAlertMockView: UIViewController, TemplateAlertView {
+final class TemplateAlertMockView: UIViewController, TemplateAlertView {
     private(set) var isViewConfigured: Bool = false
     private(set) var isCloseCalled: Bool = false
     

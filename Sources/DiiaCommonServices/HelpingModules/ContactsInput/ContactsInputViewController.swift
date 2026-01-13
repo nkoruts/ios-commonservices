@@ -1,3 +1,4 @@
+
 import UIKit
 import DiiaMVPModule
 import DiiaUIComponents
@@ -294,7 +295,7 @@ extension ContactsInputViewController {
         static let phoneMask = "(XXX) XXX XX XX"
 
         static let separatorColor = UIColor("#000000").withAlphaComponent(0.3)
-        static let errorColor = UIColor("#CA2F28")
+        static let errorColor = UIColor("#EC0312")
         static let buttonInsets = UIEdgeInsets.init(top: 0, left: 62, bottom: 0, right: 62)
     }
 }

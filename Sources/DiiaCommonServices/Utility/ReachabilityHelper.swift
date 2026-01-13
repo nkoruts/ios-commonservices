@@ -1,8 +1,9 @@
+
 import Foundation
 import Alamofire
 import ReactiveKit
 
-public class ReachabilityHelper {
+public final class ReachabilityHelper {
 
     // MARK: - Properties
     private let reachabilityManager = Alamofire.NetworkReachabilityManager.default

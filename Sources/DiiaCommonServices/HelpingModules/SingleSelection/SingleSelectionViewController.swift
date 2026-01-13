@@ -87,7 +87,7 @@ final class SingleSelectionViewController: UIViewController {
     private func setupSearchField() {
         searchContainer.layer.cornerRadius = 16
         searchTF.addTarget(self, action: #selector(textChanged), for: .editingChanged)
-        searchTF.placeholder = presenter.placeholder
+        searchTF.attributedPlaceholder = NSAttributedString(string: presenter.placeholder, attributes: [.foregroundColor: UIColor.black540])
         searchTF.clearButtonMode = .whileEditing
     }
     
