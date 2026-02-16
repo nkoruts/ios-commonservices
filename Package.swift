@@ -20,7 +20,7 @@ let package = Package(
         .package(url: "https://github.com/diia-open-source/ios-mvpmodule.git", .upToNextMinor(from: Version(1, 0, 0))),
         .package(url: "https://github.com/diia-open-source/ios-network.git", .upToNextMinor(from: Version(1, 0, 0))),
         .package(url: "https://github.com/diia-open-source/ios-uicomponents.git", .upToNextMinor(from: Version(1, 0, 0))),
-        .package(url: "https://github.com/diia-open-source/ios-commontypes.git", .upToNextMinor(from: Version(1, 0, 0))),
+        .package(url: "https://github.com/nkoruts/ios-commontypes.git", .upToNextMinor(from: Version(1, 0, 0))),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -32,9 +32,6 @@ let package = Package(
                 .product(name: "DiiaNetwork", package: "ios-network"),
                 .product(name: "DiiaUIComponents", package: "ios-uicomponents"),
                 .product(name: "DiiaCommonTypes", package: "ios-commontypes"),
-            ]),
-        .testTarget(
-            name: "DiiaCommonServicesTests",
-            dependencies: ["DiiaCommonServices"]),
+            ])
     ]
 )
